@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-color: #e3e3e3;
+}
+
+/* index.php */
+
+h1 {
+  margin: 20px 0;
+  color: #233142;
+}
+
+form {
+  color: #455d7a;
+}
+
+textarea {
+  width: 70%;
+  border-color: #f95959;
+  margin-bottom: 30px;
+}
+
+#word {
+  border-color: #f95959;
+  margin: 10px 0;
+}
+
+button {
+  all: unset;
+  padding: 5px 10px;
+  border: 1px solid #f95959;
+  border-radius: 5px;
+  background-color: #455d7a;
+  color: white;
+  cursor: pointer;
+}
+
+/* elabora.php */
+
+h2 {
+  margin: 10px 0;
+  color: #233142;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container > * {
+  width: 100%;
+}
+
+p:nth-child(2),
+p:nth-child(5) {
+  width: 70%;
+  border: 1px solid red;
+  word-wrap: break-word;
+  background-color: white;
+  color: #455d7a;
+  border-radius: 5px;
+}
+
+p:nth-child(3),
+p:nth-child(6) {
+  text-transform: uppercase;
+  margin: 10px;
+}
